@@ -13,6 +13,9 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { NavBarComponent } from './layout/nav-bar/nav-bar.component';
 import { Accueil1Component } from './accueil1/accueil1.component';
 import { Accueil2Component } from './accueil2/accueil2.component';
+import { EditorComponent } from './editor/editor.component';
+import { EditorListComponent } from './editor/editor-list/editor-list.component';
+import { EditorDetailsComponent } from './editor/editor-details/editor-details.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { Accueil2Component } from './accueil2/accueil2.component';
     NavBarComponent,
     Accueil1Component,
     Accueil2Component
+    EditorComponent,
+    EditorListComponent,
+    EditorDetailsComponent
   ],
   imports: [
     BrowserModule,
