@@ -10,6 +10,10 @@ import { AboutComponent } from './about/about.component';
 import { OhFourComponent } from './oh-four/oh-four.component';
 import { LoginComponent } from './login/login.component';
 import { InscriptionComponent } from './inscription/inscription.component';
+import { LibraryListPlayerComponent } from './library-list/library-list.component';
+import { BookCardComponent } from './library-list/book-card/book-card.component';
+import { BookListComponent } from './book-list/book-list.component';
+import { BookItemComponent } from './book-list/book-item/book-item.component';
 import { NavBarComponent } from './layout/nav-bar/nav-bar.component';
 import { Accueil1Component } from './accueil1/accueil1.component';
 import { Accueil2Component } from './accueil2/accueil2.component';
@@ -27,6 +31,10 @@ import { EditorDetailsComponent } from './editor/editor-details/editor-details.c
     OhFourComponent,
     LoginComponent,
     InscriptionComponent,
+    LibraryListPlayerComponent,
+    BookCardComponent,
+    BookListComponent,
+    BookItemComponent,
     NavBarComponent,
     Accueil1Component,
     Accueil2Component
