@@ -10,6 +10,9 @@ import { AboutComponent } from './about/about.component';
 import { OhFourComponent } from './oh-four/oh-four.component';
 import { LoginComponent } from './login/login.component';
 import { InscriptionComponent } from './inscription/inscription.component';
+import { EditorComponent } from './editor/editor.component';
+import { EditorListComponent } from './editor/editor-list/editor-list.component';
+import { EditorDetailsComponent } from './editor/editor-details/editor-details.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { InscriptionComponent } from './inscription/inscription.component';
     AboutComponent,
     OhFourComponent,
     LoginComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    EditorComponent,
+    EditorListComponent,
+    EditorDetailsComponent
   ],
   imports: [
     BrowserModule,
