@@ -10,6 +10,9 @@ import { AboutComponent } from './about/about.component';
 import { OhFourComponent } from './oh-four/oh-four.component';
 import { LoginComponent } from './login/login.component';
 import { InscriptionComponent } from './inscription/inscription.component';
+import { NavBarComponent } from './layout/nav-bar/nav-bar.component';
+import { Accueil1Component } from './accueil1/accueil1.component';
+import { Accueil2Component } from './accueil2/accueil2.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { InscriptionComponent } from './inscription/inscription.component';
     AboutComponent,
     OhFourComponent,
     LoginComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    NavBarComponent,
+    Accueil1Component,
+    Accueil2Component
   ],
   imports: [
     BrowserModule,
