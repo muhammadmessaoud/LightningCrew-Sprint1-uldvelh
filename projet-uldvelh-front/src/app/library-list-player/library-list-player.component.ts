@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-library-list',
-  templateUrl: './library-list.component.html',
-  styleUrls: ['./library-list.component.scss']
+  selector: 'app-library-list-player',
+  templateUrl: './library-list-player.component.html',
+  styleUrls: ['./library-list-player.component.scss']
 })
 export class LibraryListPlayerComponent implements OnInit {
 

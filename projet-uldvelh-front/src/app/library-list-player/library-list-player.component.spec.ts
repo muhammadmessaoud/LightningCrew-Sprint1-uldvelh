@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LibraryListPlayerComponent } from './library-list.component';
+import { LibraryListPlayerComponent } from './library-list-player.component';
 
 describe('LibraryListPlayerComponent', () => {
   let component: LibraryListPlayerComponent;

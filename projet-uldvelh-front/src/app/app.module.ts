@@ -10,8 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { OhFourComponent } from './oh-four/oh-four.component';
 import { LoginComponent } from './login/login.component';
 import { InscriptionComponent } from './inscription/inscription.component';
-import { LibraryListPlayerComponent } from './library-list/library-list.component';
-import { BookCardComponent } from './library-list/book-card/book-card.component';
+import { LibraryListPlayerComponent } from './library-list-player/library-list-player.component';
+import { BookCardComponent } from './book-card/book-card.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { BookItemComponent } from './book-list/book-item/book-item.component';
 import { NavBarComponent } from './layout/nav-bar/nav-bar.component';
@@ -20,6 +20,7 @@ import { Accueil2Component } from './accueil2/accueil2.component';
 import { EditorComponent } from './editor/editor.component';
 import { EditorListComponent } from './editor/editor-list/editor-list.component';
 import { EditorDetailsComponent } from './editor/editor-details/editor-details.component';
+import { LibraryListEditorComponent } from './library-list-editor/library-list-editor.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { EditorDetailsComponent } from './editor/editor-details/editor-details.c
     Accueil2Component,
     EditorComponent,
     EditorListComponent,
-    EditorDetailsComponent
+    EditorDetailsComponent,
+    LibraryListEditorComponent
   ],
   imports: [
     BrowserModule,

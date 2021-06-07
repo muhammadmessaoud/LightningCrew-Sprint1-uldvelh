@@ -10,9 +10,9 @@
               Jouer
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Ma bibliothèque</a></li>
-              <li><a class="dropdown-item" href="#">Liste des créateurs</a></li>
-              <li><a class="dropdown-item" href="#">Liste des livres</a></li> 
+              <li><a class="dropdown-item" [routerLink]="['/library-player']" routerLinkActive="active-orange" >Ma bibliothèque</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/editor-list']" routerLinkActive="active-orange">Liste des créateurs</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/book-list']" routerLinkActive="active-orange">Liste des livres</a></li> 
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -20,7 +20,7 @@
               Editer
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Ma bibliothèque</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/library-editor']" routerLinkActive="active-orange">Ma bibliothèque</a></li>
               <li><a class="dropdown-item" href="#">Nouvelle histoire</a></li>
             </ul>
           </li>  
