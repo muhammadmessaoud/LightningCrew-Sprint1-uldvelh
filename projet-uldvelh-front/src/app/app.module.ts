@@ -10,6 +10,10 @@ import { AboutComponent } from './about/about.component';
 import { OhFourComponent } from './oh-four/oh-four.component';
 import { LoginComponent } from './login/login.component';
 import { InscriptionComponent } from './inscription/inscription.component';
+import { LibraryListPlayerComponent } from './library-list/library-list.component';
+import { BookCardComponent } from './library-list/book-card/book-card.component';
+import { BookListComponent } from './book-list/book-list.component';
+import { BookItemComponent } from './book-list/book-item/book-item.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { InscriptionComponent } from './inscription/inscription.component';
     AboutComponent,
     OhFourComponent,
     LoginComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    LibraryListPlayerComponent,
+    BookCardComponent,
+    BookListComponent,
+    BookItemComponent,
   ],
   imports: [
     BrowserModule,
