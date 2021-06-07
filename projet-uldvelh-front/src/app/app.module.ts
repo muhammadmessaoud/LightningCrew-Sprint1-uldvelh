@@ -37,7 +37,7 @@ import { EditorDetailsComponent } from './editor/editor-details/editor-details.c
     BookItemComponent,
     NavBarComponent,
     Accueil1Component,
-    Accueil2Component
+    Accueil2Component,
     EditorComponent,
     EditorListComponent,
     EditorDetailsComponent
